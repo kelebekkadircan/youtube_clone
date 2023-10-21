@@ -7,7 +7,7 @@ width :  ${(props) => props.type !== 'sm' && '380px'};
 margin-bottom : ${(props) => props.type === 'sm' ? '10px' : '45px'};
 cursor: pointer ; 
 display : ${(props) => props.type === 'sm' && 'flex'};
-gap : 10px
+gap : 10px;
 
 
 `
